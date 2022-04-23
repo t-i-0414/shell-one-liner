@@ -21,3 +21,5 @@
 
 /bin/bash -c "seq 100 | grep -E '^(.)\1$' | xargs"
 # → 11 22 33 44 55 66 77 88 99
+
+/bin/bash -c "echo 中村 山田 田代 上田 | grep -o '[^ ]田'"
